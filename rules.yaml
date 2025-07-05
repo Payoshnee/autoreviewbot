@@ -1,0 +1,59 @@
+STYLE_CONVENTION_001:
+  linter: checkstyle
+  severity: warning
+  message: "This violates Java naming or formatting conventions (e.g., camelCase, ALL_CAPS)."
+  guideline: "Follow Java code conventions"
+
+STYLE_LAMBDA_002:
+  linter: pmd
+  severity: suggestion
+  message: "Consider replacing imperative code with streams or lambdas for better readability."
+  guideline: "Use lambdas and streams where possible"
+
+SAFETY_NULL_003:
+  linter: spotbugs
+  severity: warning
+  message: "Possible null pointer use — consider null-checks or Optional."
+  guideline: "Beware of NullPointerException"
+
+SECURITY_MUTABLE_004:
+  linter: custom
+  severity: critical
+  message: "Don't expose internal mutable fields directly — clone or copy them."
+  guideline: "Avoid assigning client references to fields"
+
+EXCEPTIONS_ORDER_005:
+  linter: pmd
+  severity: warning
+  message: "Catch specific exceptions before generic ones."
+  guideline: "Handle exceptions with care"
+
+PERF_DSCHOICE_006:
+  linter: pmd
+  severity: suggestion
+  message: "Review data structure choice — avoid obsolete or inefficient collections."
+  guideline: "Choose correct data structures"
+
+ENCAPSULATION_007:
+  linter: checkstyle
+  severity: warning
+  message: "Avoid exposing public methods unnecessarily — keep private unless needed."
+  guideline: "Think twice before exposing methods"
+
+OOP_INTERFACES_008:
+  linter: pmd
+  severity: suggestion
+  message: "Code to interfaces, not concrete classes."
+  guideline: "Code to interfaces"
+
+OOP_NO_FORCE_INTERFACE_009:
+  linter: custom
+  severity: suggestion
+  message: "Avoid interfaces with only one implementation — consider removing it."
+  guideline: "Don't force-fit interfaces"
+
+EQUALITY_HASH_010:
+  linter: spotbugs
+  severity: critical
+  message: "You’ve overridden equals() — also override hashCode()."
+  guideline: "Override hashCode if equals is overridden"

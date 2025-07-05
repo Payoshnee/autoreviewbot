@@ -1,0 +1,21 @@
+tool,severity,rule_id,message,label
+checkstyle,critical,naming_convention,Class name should be in PascalCase,1
+checkstyle,warning,line_length,Line exceeds maximum allowed length of 100 characters,0
+checkstyle,major,method_order,Utility methods should be declared static,1
+checkstyle,critical,indentation,Incorrect indentation for block,1
+checkstyle,minor,javadoc,Missing Javadoc comment,0
+pmd,critical,array_copy,Manual loop can be replaced by Arrays.copyOf,1
+pmd,warning,unused_import,Avoid unused imports in the file,0
+pmd,major,duplicate_code,Duplicate blocks of code detected,1
+pmd,minor,simplify_logic,Use ternary operator instead of if-else,0
+pmd,warning,empty_catch,Avoid empty catch blocks,1
+spotbugs,critical,null_check_possible,Possible null dereference,1
+spotbugs,warning,inefficient_concat,String concatenation in loop,0
+spotbugs,major,unclosed_stream,Stream is not closed properly,1
+spotbugs,minor,dead_store,Dead store to local variable,0
+spotbugs,critical,thread_safety,Access to static field is not thread-safe,1
+checkstyle,major,bracket_style,Opening brace should be on the same line,1
+pmd,minor,finalizer,Avoid using finalizers,0
+spotbugs,warning,overwritten_field,Field value is overwritten before use,1
+spotbugs,warning,constant_condition,Boolean expression is always true,0
+pmd,critical,complex_method,"Method is too complex, consider refactoring",1

@@ -1,0 +1,61 @@
+message,severity,tool,label
+Class name should start with uppercase.,medium,pmd,0
+Method should be static.,high,spotbugs,0
+Use try-with-resources for automatic closing.,medium,pmd,0
+Avoid throwing generic exceptions.,high,pmd,1
+Avoid empty catch blocks.,high,spotbugs,0
+Avoid throwing generic exceptions.,high,spotbugs,1
+Avoid deeply nested code blocks.,low,checkstyle,0
+Use List interface instead of ArrayList.,medium,checkstyle,0
+Null pointer dereference possible.,high,spotbugs,0
+Use proper indentation.,medium,spotbugs,0
+Consider simplifying this boolean expression.,medium,checkstyle,0
+Avoid deeply nested code blocks.,medium,pmd,0
+Avoid deeply nested code blocks.,medium,checkstyle,0
+Unclosed resource leak detected.,low,spotbugs,0
+Use proper indentation.,low,pmd,0
+Consider simplifying this boolean expression.,low,checkstyle,0
+Avoid hardcoded file paths.,medium,checkstyle,1
+Class name should start with uppercase.,low,checkstyle,0
+Use try-with-resources for automatic closing.,high,pmd,1
+Class name should start with uppercase.,low,pmd,1
+Use proper indentation.,low,checkstyle,0
+Use proper indentation.,low,pmd,1
+Use equals() instead of == for strings.,low,spotbugs,1
+Use equals() instead of == for strings.,low,pmd,0
+Line is longer than 100 characters.,low,spotbugs,0
+Avoid magic numbers.,high,pmd,0
+Use List interface instead of ArrayList.,high,checkstyle,0
+Unclosed resource leak detected.,high,checkstyle,0
+Variable name should be more descriptive.,medium,spotbugs,1
+Avoid deeply nested code blocks.,high,pmd,0
+Too many parameters in method.,high,pmd,0
+Use proper indentation.,low,pmd,1
+Avoid magic numbers.,medium,pmd,1
+Use proper indentation.,low,checkstyle,1
+Avoid deeply nested code blocks.,high,spotbugs,1
+Unclosed resource leak detected.,low,checkstyle,0
+Variable name should be more descriptive.,high,spotbugs,0
+Line is longer than 100 characters.,medium,checkstyle,0
+Avoid empty catch blocks.,high,checkstyle,0
+Null pointer dereference possible.,high,pmd,0
+Class name should start with uppercase.,high,pmd,1
+Avoid unused private fields.,medium,spotbugs,0
+Avoid magic numbers.,medium,pmd,0
+Use equals() instead of == for strings.,medium,spotbugs,0
+Method should be static.,high,pmd,0
+Missing Javadoc comment.,high,pmd,0
+Unclosed resource leak detected.,medium,checkstyle,0
+Method should be static.,medium,checkstyle,1
+Avoid deeply nested code blocks.,low,pmd,0
+Line is longer than 100 characters.,low,spotbugs,0
+Use equals() instead of == for strings.,high,pmd,1
+Variable name should be more descriptive.,high,spotbugs,1
+Unclosed resource leak detected.,high,checkstyle,0
+Avoid deeply nested code blocks.,medium,checkstyle,1
+Avoid deeply nested code blocks.,medium,checkstyle,1
+Too many parameters in method.,medium,pmd,0
+Null pointer dereference possible.,medium,checkstyle,1
+Avoid hardcoded file paths.,low,pmd,1
+Remove redundant import statements.,high,spotbugs,1
+Consider simplifying this boolean expression.,low,pmd,0

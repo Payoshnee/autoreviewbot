@@ -1,0 +1,81 @@
+message,severity,tool,label
+Avoid redundant null checks.,high,checkstyle,0
+Don't use magic numbers.,low,pmd,0
+Avoid nested try blocks.,critical,checkstyle,1
+Possible null pointer dereference.,medium,spotbugs,0
+Avoid using raw types in generics.,medium,checkstyle,1
+Avoid deeply nested code blocks.,high,pmd,1
+Do not catch generic Exception.,high,pmd,0
+Avoid hardcoding file paths.,critical,checkstyle,0
+Avoid deeply nested code blocks.,high,pmd,0
+Avoid hardcoding file paths.,low,pmd,0
+Use logging instead of System.out.println().,critical,pmd,1
+Avoid hardcoding file paths.,high,pmd,0
+Avoid hardcoding file paths.,low,spotbugs,0
+Missing Javadoc comment.,medium,spotbugs,1
+Method too long.,medium,spotbugs,0
+Avoid nested try blocks.,critical,checkstyle,0
+Possible null pointer dereference.,critical,pmd,0
+Avoid unused private fields.,critical,spotbugs,1
+Do not catch generic Exception.,high,pmd,0
+Avoid redundant null checks.,medium,checkstyle,0
+Missing Javadoc comment.,medium,checkstyle,0
+Use proper naming conventions for classes.,low,pmd,0
+Avoid unused private fields.,medium,spotbugs,0
+Method too long.,medium,checkstyle,1
+Avoid empty if blocks.,low,checkstyle,0
+Avoid hardcoding file paths.,critical,pmd,0
+Avoid hardcoding file paths.,medium,spotbugs,1
+Avoid calling Thread.run() instead of Thread.start().,critical,pmd,0
+Avoid hardcoding file paths.,critical,checkstyle,1
+Missing Javadoc comment.,high,checkstyle,0
+Avoid empty if blocks.,medium,checkstyle,1
+Use proper naming conventions for classes.,low,spotbugs,0
+Line is longer than 100 characters.,low,checkstyle,0
+Avoid calling Thread.run() instead of Thread.start().,low,spotbugs,0
+Line is longer than 100 characters.,critical,checkstyle,1
+Avoid redundant null checks.,low,pmd,1
+Empty catch block.,critical,pmd,1
+Empty catch block.,low,pmd,0
+Avoid redundant null checks.,high,checkstyle,0
+Avoid calling Thread.run() instead of Thread.start().,high,pmd,0
+Avoid nested try blocks.,critical,spotbugs,0
+Use proper naming conventions for classes.,medium,checkstyle,1
+Avoid calling Thread.run() instead of Thread.start().,medium,pmd,1
+Method too long.,critical,checkstyle,1
+Empty catch block.,medium,pmd,0
+Method too long.,low,spotbugs,1
+Don't use magic numbers.,low,pmd,0
+Use logging instead of System.out.println().,medium,pmd,0
+Missing Javadoc comment.,high,checkstyle,0
+Method too long.,medium,pmd,0
+Avoid deeply nested code blocks.,medium,checkstyle,1
+Avoid unused private fields.,high,checkstyle,1
+Avoid empty if blocks.,critical,checkstyle,0
+Don't use magic numbers.,high,pmd,0
+Avoid hardcoding file paths.,critical,spotbugs,1
+Avoid using raw types in generics.,medium,spotbugs,0
+Avoid using raw types in generics.,medium,checkstyle,0
+Method too long.,low,spotbugs,0
+Don't use magic numbers.,high,checkstyle,0
+Avoid using raw types in generics.,critical,spotbugs,0
+Use equals() instead of == for object comparison.,high,pmd,1
+Avoid empty if blocks.,high,checkstyle,0
+Avoid instantiating new objects inside loops.,high,checkstyle,0
+Avoid unused private fields.,low,checkstyle,1
+Use try-with-resources for closeable objects.,high,pmd,1
+Avoid deeply nested code blocks.,high,checkstyle,0
+Avoid empty if blocks.,low,pmd,0
+Avoid empty if blocks.,low,spotbugs,1
+Avoid using raw types in generics.,high,pmd,0
+Possible null pointer dereference.,high,pmd,1
+Avoid empty if blocks.,medium,pmd,0
+Missing Javadoc comment.,medium,checkstyle,0
+Avoid deeply nested code blocks.,critical,checkstyle,0
+Use logging instead of System.out.println().,high,spotbugs,1
+Avoid nested try blocks.,high,pmd,0
+Don't use magic numbers.,critical,checkstyle,1
+Avoid deeply nested code blocks.,high,pmd,1
+Use equals() instead of == for object comparison.,low,checkstyle,1
+Avoid instantiating new objects inside loops.,medium,checkstyle,0
+Don't use magic numbers.,critical,checkstyle,1
