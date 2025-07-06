@@ -1,10 +1,35 @@
-﻿# autoreviewbot
-AutoReviewBot is an automated code review assistant designed to improve Java development workflows. It analyzes code submitted in GitHub Pull Requests (PRs) and posts detailed, line-specific feedback automatically. By integrating static analysis tools such as Checkstyle, PMD, and SpotBugs with customizable rule mapping, AutoReviewBot enforces consistent coding standards. The bot’s goal is to help developers catch issues early, save review time, and maintain high-quality codebases.
-Key Features-
-Fully automated code review triggered by GitHub Pull Requests.
-Integration with popular static analysis tools: Checkstyle, PMD, and SpotBugs.
-Custom rule mapping using a configurable rules.yaml file.
-Optional Machine Learning-based ranking to highlight the most critical violations.
-Inline commenting on GitHub PRs for precise, actionable feedback.
-Summary comments providing an overview of issues found.
-Seamless integration with standard GitHub workflows to support developer productivity.
+AutoReviewBot: AI-Powered Pull Request Reviewer
+
+AutoReviewBot is an automated GitHub bot that reviews Pull Requests (PRs) using static code analyzers and Machine Learning (ML). It posts GitHub comments highlighting potential code issues, prioritizes them using AI.
+
+---
+
+## Key Features
+
+- Runs static code analyzers: Checkstyle, PMD, SpotBugs
+- Uses ML to prioritize violations based on developer feedback
+- Posts inline comments on GitHub PRs using GitHub API
+- Optional LLM summarization for grouped feedback
+- Tracks metrics (Precision, Recall) and logs feedback
+- Supports adaptive rule weights with `weights.yaml`
+
+---
+
+## 📦 Tech Stack
+
+| Component            | Tool/Library         |
+|----------------------|----------------------|
+| Language             | Python 3             |
+| Static Analysis      | Checkstyle, PMD, SpotBugs |
+| ML Ranking           | LightGBM + TF-IDF + Scikit-learn |
+| LLM Summarization    | OpenAI GPT (optional) |
+| GitHub Integration   | REST API + Webhooks  |
+| Hosting              | Ngrok                |
+| CI/CD Support        | GitHub Actions       |
+
+---
+
+## ⚙️ Architecture
+![Untitled diagram _ Mermaid Chart-2025-07-06-033047](https://github.com/user-attachments/assets/5efd3631-88b4-49f9-92ae-ab01febb965d)
+
+---
