@@ -33,3 +33,45 @@ AutoReviewBot is an automated GitHub bot that reviews Pull Requests (PRs) using 
 ![Untitled diagram _ Mermaid Chart-2025-07-06-033047](https://github.com/user-attachments/assets/5efd3631-88b4-49f9-92ae-ab01febb965d)
 
 ---
+AI & ML Integration
+Model: LightGBM classifier with TF-IDF features from violation messages.
+
+Inputs:
+
+Violation message (text)
+
+Severity (low, medium, high, critical)
+
+Tool name (checkstyle, pmd, spotbugs)
+
+Output: Ranking score → used to prioritize comment importance.
+
+Feedback Learning: Developer responses update feedback_log.csv, improving future predictions.
+
+---
+How It Works (Step-by-Step)
+GitHub Webhook Triggered: When a PR is opened or updated.
+
+Bot Clones Repo: Uses GitHub token to clone PR branch.
+
+Run Analyzers: Executes Checkstyle, PMD, SpotBugs on the codebase.
+
+Parse Results: Extracts file, line, message, severity, and tool used.
+
+Rank Violations: ML model scores importance.
+
+Comment on PR:
+
+Inline comments
+
+Summary comment with total/critical issues
+
+LLM Summary : Uses GPT to group and summarize violations.
+
+Merge Blocking: Blocks if any critical issue is found.
+
+Feedback Logging: Stores whether developer accepted/ignored suggestions.
+
+Model Retraining: Uses feedback log to improve future rankings.
+
+
